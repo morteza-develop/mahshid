@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Lato, sans-serif;
+}
+
+
+.main{
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: #212121;
+}
+
+.sitetitle{
+    font-size: 1.8rem ;
+    margin-top: 5rem;
+    text-align: right;
+}
+
+.menulist{
+    list-style: none;
+    margin-top: 3rem;
+}
+.menulist a {
+    color: #fff;
+    text-align: right;
+}
+.active {
+    color: cornflowerblue !important;
+}
+.pagetitle{
+    margin-top: 6rem;
+    color: #226E93 !important;
+}
+
+.content{
+    margin-top: 2rem;
+    padding: 3rem;
+}
+
+.textstyle{
+    font-weight:900;
+    font: italic;
+
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-dark .navbar-toggler {
+        position: absolute;
+        right: 0;
+    }
+    .sitetitle{
+        margin-bottom: 3rem;
+    }
+    .menulist a {
+        color: #fff;
+        text-align: center;
+    }
+  }
