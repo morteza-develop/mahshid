@@ -29,8 +29,8 @@ body {
   text-align: right;
 }
 .fixed {
-  position: fixed;
-  top: 30vh;
+  position: fixed !important;
+  top: 30vh !important;
 }
 
 .active {
@@ -87,9 +87,8 @@ body {
     text-align: center;
   }
   .fixed {
-    position: relative;
-    
-    top: 0;
-    left: -5%;
+    position: relative !important;
+    top: 0 !important;
+    left: -5% !important;
   }
 }
