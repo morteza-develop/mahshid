@@ -1,86 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: Lato, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Lato, sans-serif;
 }
 
-.main{
-    height: 100vh;
+.main {
+  height: 100vh;
 }
 
-.sidebar{
-    background-color: #212121;
+.sidebar {
+  background-color: #212121;
 }
 
-.sitetitle{
-    font-size: 1.8rem ;
-    margin-top: 5rem;
-    text-align: right;
+.sitetitle {
+  font-size: 1.8rem;
+  margin-top: 5rem;
+  text-align: right;
 }
 
-.menulist{
-    list-style: none;
-    margin-top: 3rem;
+.menulist {
+  list-style: none;
+  margin-top: 3rem;
 }
 
 .menulist a {
-    color: #fff;
-    text-align: right;
+  color: #fff;
+  text-align: right;
+}
+.fixed {
+  position: fixed;
+  top: 30vh;
 }
 
 .active {
-    color: #226E93 !important;
-    font-weight: bold !important;
+  color: #226e93 !important;
+  font-weight: bold !important;
 }
 
-.pagetitle{
-    margin-top: 6rem;
-    color: #226E93 !important;
+.pagetitle {
+  margin-top: 6rem;
+  color: #226e93 !important;
 }
 
-.content{
-    margin-top: 2rem;
-    padding: 3rem;
+.content {
+  margin-top: 2rem;
+  padding: 3rem;
 }
 
-.textstyle{
-    font-weight:900;
-    font: italic;
-
+.textstyle {
+  font-weight: 900;
+  font: italic;
 }
 
-.hrline{
-    border-top: 1px solid #226E93;
+.hrline {
+  border-top: 1px solid #226e93;
 }
 
-.cvtitle , .cvqot{
-    color: #226E93 !important;
+.cvtitle,
+.cvqot {
+  color: #226e93 !important;
 }
 
-.cvqot{
-    font-size: 1.2rem !important;
+.cvqot {
+  font-size: 1.2rem !important;
 }
 
-.table td, .table th{
-    border-top : none !important;
+.table td,
+.table th {
+  border-top: none !important;
 }
 
 @media screen and (max-width: 992px) {
-    .navbar-dark .navbar-toggler {
-        position: absolute;
-        right: 0;
-    }
-    .sitetitle{
-        margin-bottom: 3rem;
-    }
-    .menulist a {
-        color: #fff;
-        text-align: center;
-    }
-    .sitetitle{
-        text-align: center;
-    }
+  .navbar-dark .navbar-toggler {
+    position: absolute;
+    right: 0;
   }
-
-
+  .sitetitle {
+    margin-bottom: 3rem;
+  }
+  .menulist a {
+    color: #fff;
+    text-align: center;
+  }
+  .sitetitle {
+    text-align: center;
+  }
+  .fixed {
+    position: relative;
+    top: 0;
+    left: -5%;
+  }
+}
